@@ -2,7 +2,7 @@
  * @Author: fengyun2
  * @Date:   2016-08-20 09:28:36
  * @Last Modified by:   fengyun2
- * @Last Modified time: 2016-08-20 09:38:24
+ * @Last Modified time: 2016-08-20 10:20:08
  */
 
 'use strict';
@@ -25,10 +25,7 @@ gulp.task('script', function() {
             // npm({ jsnext: true, main: true }),
             commonjs(),
             // uglify(),
-            babel({
-                exclude: 'node_modules/**',
-                presets: ["es2015-rollup"]
-            })
+            babel()
         ]
     }).then(function(bundle) {
         // 输出 bundle + sourcemap
