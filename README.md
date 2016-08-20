@@ -20,7 +20,7 @@
 ## Plugin
 
 * `rollup-plugin-babel`: outputs ES5
-~~* `rollup-plugin-npm`: loads modules in node_modules~~
+* ~~`rollup-plugin-npm`: loads modules in node_modules~~
 * `rollup-plugin-commonjs`: converts CommonJS to ES6
 
 ## Bug
