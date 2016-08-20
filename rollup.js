@@ -1,9 +1,9 @@
 /*
-* @Author: baby
-* @Date:   2016-08-19 23:38:15
-* @Last Modified by:   baby
-* @Last Modified time: 2016-08-19 23:45:40
-*/
+ * @Author: baby
+ * @Date:   2016-08-19 23:38:15
+ * @Last Modified by:   fengyun2
+ * @Last Modified time: 2016-08-20 09:37:57
+ */
 
 'use strict';
 
@@ -23,7 +23,7 @@ rollup.rollup({
         // uglify(),
         babel({
             exclude: 'node_modules/**',
-            presets: [ "es2015-rollup" ]
+            presets: ["es2015-rollup"]
         })
     ]
 }).then(function(bundle) {
@@ -63,6 +63,6 @@ rollup.rollup({
         sourceMap: true,
         dest: 'index.js'
     });
-}).catch(function(err){
+}).catch(function(err) {
     console.log(err);
 });

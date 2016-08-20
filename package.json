@@ -1,42 +1,48 @@
 {
-  "name": "rollup-biolerplate",
-  "version": "0.12.0",
-  "description": "Rollup.js 下一代的ES6模块打包机",
-  "main": "src/index.js",
-  "scripts": {
-    "build": "rollup -c rollup.config.js",
-    "watch": "chokidar 'src/**' -c 'npm run build'",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fengyun2/rollup-biolerplate.git"
-  },
-  "keywords": [
-    "rollup",
-    "es6"
-  ],
-  "author": "LY",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/fengyun2/rollup-biolerplate/issues"
-  },
-  "homepage": "https://github.com/fengyun2/rollup-biolerplate#readme",
-  "devDependencies": {
-    "babel-core": "^6.13.2",
-    "babel-preset-es2015-rollup": "^1.2.0",
-    "npm-watch": "^0.1.6",
-    "rollup": "^0.34.10",
-    "rollup-plugin-babel": "^2.6.1",
-    "rollup-plugin-npm": "^2.0.0",
-    "rollup-plugin-uglify": "^1.0.1",
-    "rollup-plugin-commonjs": "^3.3.1",
-    "rollup-plugin-riot": "^0.4.2",
-    "rollup-plugin-node-resolve": "^2.0.0",
-    "chokidar-cli": "^1.2.0"
-  },
-  "dependencies": {
-    "lodash": "^4.15.0",
-    "moment": "^2.14.1"
-  }
+    "name": "rollup-biolerplate",
+    "version": "0.12.0",
+    "description": "Rollup.js 下一代的ES6模块打包机",
+    "main": "src/index.js",
+    "scripts": {
+        "build": "rollup -c",
+        "watch": "chokidar 'src/**' -c 'npm run build'"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fengyun2/rollup-biolerplate.git"
+    },
+    "keywords": [
+        "rollup",
+        "es6"
+    ],
+    "author": "LY",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/fengyun2/rollup-biolerplate/issues"
+    },
+    "homepage": "https://github.com/fengyun2/rollup-biolerplate#readme",
+    "devDependencies": {
+        "babel-core": "^6.13.2",
+        "babel-polyfill": "^6.13.0",
+        "babel-preset-es2015": "^6.13.2",
+        "babel-preset-es2015-rollup": "^1.2.0",
+        "chokidar-cli": "^1.2.0",
+        "gulp": "^3.9.1",
+        "npm-watch": "^0.1.6",
+        "rollup": "^0.34.10",
+        "rollup-plugin-babel": "^2.6.1",
+        "rollup-plugin-commonjs": "^3.3.1",
+        "rollup-plugin-json": "^2.0.1",
+        "rollup-plugin-node-resolve": "^2.0.0",
+        "rollup-plugin-npm": "^2.0.0",
+        "rollup-plugin-riot": "^0.4.2",
+        "rollup-plugin-string": "^2.0.2",
+        "rollup-plugin-uglify": "^1.0.1"
+    },
+    "dependencies": {
+        "lodash": "^4.15.0",
+        "moment": "^2.14.1",
+        "riot": "^2.5.0",
+        "rollup-plugin-npm": "^2.0.0"
+    }
 }
