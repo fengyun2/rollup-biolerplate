@@ -3,18 +3,24 @@
 ## Start
 
 ```bash
-* npm install
+npm install
 ```
 ### 方案一:(暂时配置项太少功能)
 
 ```bash
-* npm run build
-* npm run watch
+npm run build
+npm run watch
 ```
 ### 方案二: (推荐)
 
 ```bash
-* node rollup.config.js
+node rollup.config.js
+```
+
+### 方案三:
+
+```bash
+gulp
 ```
 
 ## Plugin
