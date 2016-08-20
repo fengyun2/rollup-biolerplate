@@ -14,7 +14,7 @@
 ### 方案二: (推荐)
 
 ```bash
-* node rollup.js
+* node rollup.config.js
 ```
 
 ## Plugin
